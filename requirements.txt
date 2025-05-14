@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+ipykernel
+pydantic
+fastapi
+uvicorn
+jinja2
+python-multipart
+flask
