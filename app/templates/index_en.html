@@ -18,30 +18,30 @@
                 <option value="F">Female</option>
             </select>
         </label><br>
-        <label>ChestPainType:
+        <label>ChestPainType: <span class="info">*</span>
             <select name="ChestPainType" required>
-                <option value="TA">TA</option>
-                <option value="ATA">ATA</option>
-                <option value="NAP">NAP</option>
-                <option value="ASY">ASY</option>
+                <option value="TA" title="Typical Angina">TA</option>
+                <option value="ATA" title="Atypical Angina">ATA</option>
+                <option value="NAP" title="Non-Anginal Pain">NAP</option>
+                <option value="ASY" title="Asymptomatic">ASY</option>
             </select>
         </label><br>
         <label>RestingBP: <input type="number" name="RestingBP" required></label><br>
         <label>Cholesterol: <input type="number" name="Cholesterol" required></label><br>
-        <label>FastingBS:
+        <label title="Fasting Blood Sugar">FastingBS:
             <select name="FastingBS" required>
                 <option value="0">0</option>
                 <option value="1">1</option>
             </select>
         </label><br>
-        <label>RestingECG:
+        <label>RestingECG: <span class="info">*</span>
             <select name="RestingECG" required>
-                <option value="Normal">Normal</option>
-                <option value="ST">ST</option>
-                <option value="LVH">LVH</option>
+                <option value="Normal" title="Normal">Normal</option>
+                <option value="ST" title="ST-T Abnormality">ST</option>
+                <option value="LVH" title="Left Ventricular Hypertrophy">LVH</option>
             </select>
         </label><br>
-        <label>MaxHR: <input type="number" name="MaxHR" required></label><br>
+        <label title="Maximum Heart Rate">MaxHR: <span class="info">*</span> <input type="number" name="MaxHR" required></label><br>
         <label>ExerciseAngina:
             <select name="ExerciseAngina" required>
                 <option value="N">No</option>

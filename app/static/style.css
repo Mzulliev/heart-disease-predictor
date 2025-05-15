@@ -45,3 +45,7 @@ h3 {
     text-align: center;
     color: #555;
 }
+
+.info {
+    opacity: 0.3;
+}
