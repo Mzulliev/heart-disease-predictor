@@ -51,3 +51,6 @@
 - Telegram: [@mzulliev](https://t.me/mzulliev)
 
 📌 Проект создан с целью обучения и демонстрации полного цикла ML-разработки.
+
+## Данные
+Kaggle: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
